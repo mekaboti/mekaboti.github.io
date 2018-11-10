@@ -46,6 +46,22 @@
   padding-left: 100px;
 }
 
+/*最近の投稿カード*/
+.recent-posts hr{
+  height: 4px;
+  width: 50px;
+  color: #919191;
+}
+.recent-posts p{
+  padding-left: 110px;
+  padding-bottom:30px;
+}
+
+h1{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
 body {
     background-color: #FFFF;
   }

@@ -40,3 +40,29 @@ categories a:hover{
 #categories a:active{
     color: #353535;
  }
+
+
+
+ *最近の投稿カード*/
+.recent-posts a{
+  font-family: 'Courier New, Courier, monospace';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.recent-posts a:link{
+    color: black;
+    font-size: 26px;
+    align-self: auto;
+    padding-top:30px;
+    padding-left: 60px;
+  }
+.recent-posts a:visited{
+    color: black;
+ }
+.recent-posts a:hover{   
+    color: black
+ }
+.recent-posts a:active{
+    color: black
+ }
