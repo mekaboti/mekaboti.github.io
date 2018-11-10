@@ -28,15 +28,15 @@
   }
 
 #categories a:link{
-    color: black;
+    color: #3535354;
     font-size: 26px;
   }
 #categories a:visited{
-    color: black
+    color: #353535;
  }
-categories    
-    color: black
+categories a:hover{   
+    color: #353535;
  }
 #categories a:active{
-    color: black
+    color: #353535;
  }
