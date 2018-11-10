@@ -1,0 +1,42 @@
+
+/*言語選択　リンク*/
+#lang .a {
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+#lang a:link{
+    color: black;
+    font-size: 14px;
+  }
+#lang a:visited{
+    color: black
+ }
+#lang a:hover{
+    color: black
+ }
+#lang a:active{
+    color: black
+ }
+
+/*サイトカテゴリ選択*/
+#categories .a {
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+#categories a:link{
+    color: black;
+    font-size: 26px;
+  }
+#categories a:visited{
+    color: black
+ }
+categories    
+    color: black
+ }
+#categories a:active{
+    color: black
+ }

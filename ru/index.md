@@ -1,4 +1,4 @@
 ---
-layout: layout
-title: Russian
+layout: top-page
+title: Mekaboti's website
 ---

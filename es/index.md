@@ -1,4 +1,4 @@
 ---
-layout: layout
-title: Spanish
+layout: top-page
+title: Mekaboti's website
 ---

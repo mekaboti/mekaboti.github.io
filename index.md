@@ -1,4 +1,3 @@
 ---
-layout: top-page
-title: Home
+layout: redirect2jplang
 ---
