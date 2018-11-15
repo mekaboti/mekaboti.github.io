@@ -1,51 +1,102 @@
-
 /*言語選択　リンク*/
-#lang .a {
-    font-family: Arial;
+.languages .a {
+    font-family: category-title;
     font-weight: bold;
     text-decoration: none;
   }
 
-#lang a:link{
+.languages a:link{
+    color: whitesmoke;
+    font-size: 16px
+  }
+.languages a:visited{
+    color: whitesmoke
+ }
+.languages a:hover{
+    color: whitesmoke
+ }
+.languages a:active{
+    color: whitesmoke
+ }
+
+/*各言語の位置*/
+ #select-jp .a{
+    position: fixed;
+    bottom:701px;
+    left:1150px;
+}
+ #select-en .a{
+    position: fixed;
+    bottom:701px;
+    left:1150px;
+}
+ #select-ru .a{
+    position: fixed;
+    bottom:701px;
+    left:1150px;
+}
+ #select-es .a{
+    position: fixed;
+    bottom:701px;
+    left:1150px;
+}
+
+
+
+/*サイトカテゴリリンク設定*/
+
+.categories .a {
+    font-family: Myfont;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.categories a:link{
     color: black;
-    font-size: 14px;
+    font-size: 36px;
   }
-#lang a:visited{
-    color: black
+.categories a:visited{    
+    color: black;
  }
-#lang a:hover{
-    color: black
+.categories a:hover{   
+    color: black;
  }
-#lang a:active{
-    color: black
- }
-
-/*サイトカテゴリ選択*/
-#categories .a {
-    font-family: Arial;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-#categories a:link{
-    color: #3535354;
-    font-size: 26px;
-  }
-#categories a:visited{
-    color: #353535;
- }
-categories a:hover{   
-    color: #353535;
- }
-#categories a:active{
-    color: #353535;
+.categories a:active{
+    color: black;
  }
 
 
 
- *最近の投稿カード*/
+/*各カテゴリリンク設定*/
+ #home .a{
+  text-decoration: none;
+
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+  /*padding-left: 100px;*/
+
+  border-top: solid 3px;
+  padding-top: 5px;
+  border-bottom: solid 3px;
+  padding-bottom: 5px;
+}
+
+#about-it .a{
+  text-decoration: none;
+
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+  padding-left: 100px;
+}
+
+
+
+ /*最近の投稿カード*/
+
 .recent-posts a{
-  font-family: 'Courier New, Courier, monospace';
+  font-family: new-standard;
   font-size: 20px;
   text-decoration: none;
 }
