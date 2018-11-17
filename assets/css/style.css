@@ -1,79 +1,13 @@
 @font-face{ 
   font-family: 'MyFont';
-  src: url(/Pasajero.otf);
+  src: url(/fonts/Pasajero.otf);
 }
 @font-face{
   font-family: 'category-title';
-  src: url(/Pasajero.otf);
+  src: url(/fonts/Pasajero.otf);
 }
 
-/*top image*/
-#page-title-img img{
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+body{
+  padding: 0;
+  margin:0;
 }
-
-
-/*Mekaboti's Website*/
-#page-title-img h1{
-  color: black;
-  font-size: 60px;
-  font-family: Myfont;
-  
-  position: absolute;
-  bottom:330px;
-  left: 420px;
-}
-
-/*sub sentence*/
-#page-title-img p {
-  color: black;
-  font-size: 30px;
-  font-family: Myfont;
-
-  position: absolute;
-  bottom: 300px;
-  left:270px;
-
-}
-
-
-div.top-bar{
-  background-color: black;
-  width: 100%;
-  height: 50px;
-    
-  position: fixed;
-  bottom:643px;
-  left: 0;
-}
-
-/*Recent posts*/
-.recent-posts hr{
-  height: 4px;
-  width: 50px;
-  color: #919191;
-}
-.recent-posts p{
-  font-size:20px;
-  padding-left: 110px;
-  padding-bottom:30px;
-}
-
-h1{
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
-
-footer {
-  background-color: #0000;
-  color: #0000;
-}
-  
-  
-  
-  
-
-

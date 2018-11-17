@@ -1,0 +1,52 @@
+/*top image*/
+#page-title-img{
+  background-image: url("/images/title-img4.jpg");
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+/*Mekaboti's Website*/
+#page-title-img h1{
+  color: black;
+  font-size: 60px;
+  font-family: Myfont;
+  
+  text-align: center;
+  margin: 0 auto ;
+}
+
+/*sub sentence*/
+#page-title-img p {
+  color: black;
+  font-size: 30px;
+  font-family: Myfont;
+
+  text-align: center;
+  margin: 0 auto ;
+  margin-top: 1em;
+}
+
+div.top-bar{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+    
+  position: fixed;
+  bottom:643px;
+  left: 0;
+}
+
+footer {
+  background-color: #0000;
+  color: #0000;
+}
+  
+  
+  
+  
+
+

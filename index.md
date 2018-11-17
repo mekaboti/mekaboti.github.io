@@ -1,3 +1,3 @@
 ---
-layout: redirect2jplang
+layout: home
 ---
