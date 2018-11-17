@@ -1,11 +1,12 @@
-#recent-posts {
+.titles {
     display: flex;
     flex-flow: column;
     justify-content: center;
     width: 365px;
+    margin-left:50px;
 }
 
-#recent-posts h1{
+.titles h1{
     font-family: Myfont;
     font-size: 38px;
     padding-left:30px;
