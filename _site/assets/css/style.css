@@ -3,11 +3,21 @@
   src: url(/fonts/Pasajero.otf);
 }
 @font-face{
-  font-family: 'category-title';
-  src: url(/fonts/Pasajero.otf);
+  font-family: 'titles';
+  src: url(/fonts/neue/BebasNeue\ Bold.otf);
 }
+
+@font-face{
+  font-family: 'sentences';
+  src: url(/fonts/neue/BebasNeue\ Book.otf);
+}
+
 
 body{
   padding: 0;
   margin:0;
+}
+
+.separator hr{
+  height: 3px solid;
 }

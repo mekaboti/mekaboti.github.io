@@ -1,0 +1,28 @@
+.post{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#post-title h1{
+    font-family: Myfont;
+    font-size: 40px;
+
+    text-align: center;
+    margin:0;
+}
+
+.post hr{
+    height: 3px solid;
+    width: 300px;
+    size: 3px;
+}
+
+#post-content p{
+    font-family: post-sentences;
+    font-size: 24px;
+
+    margin:0;
+    text-align: center;
+
+}

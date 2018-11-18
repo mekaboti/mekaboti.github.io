@@ -12,8 +12,11 @@ layout: below-page
                 {{ post.title | escape }}
             </a>
             <hr>
-            <p>    
-                {{post.content}}
+            
+            <p> 
+                {% if post.content | number_of_words > 20 %} 
+                    {{ post.content | truncatewords:120 }} 
+                {% endif %}
             </p>
         </div>
     </h3>

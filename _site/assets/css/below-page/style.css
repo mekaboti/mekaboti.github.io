@@ -7,6 +7,20 @@
 }
 
 .titles h1{
+    font-family: titles;
+    font-size: 42px;
+    padding-left:20px;
+}
+
+/*.titles {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 365px;
+    margin-left:50px;
+}
+
+.titles h1{
     font-family: Myfont;
     font-size: 38px;
     padding-left:30px;
@@ -20,5 +34,5 @@
     border-left-width: 3px;
     border-bottom: 0px;
     border-right: 0px;
-}
+}*/
 
