@@ -1,7 +1,7 @@
 /*top image*/
 #page-title-img{
-  background-image: url("/images/title-image12.jpg");
-  background-position: center;
+  background-image: url("/images/title-image14.jpg");
+  background-position: top;
   
   background-size: cover;
   height: 60vh;
@@ -29,7 +29,7 @@
 
   text-align: center;
   margin: 0 auto ;
-  margin-top: 5px;
+  margin-top: 1em;
 }
 
 footer {
