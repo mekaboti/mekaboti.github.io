@@ -23,7 +23,7 @@ layout: below-page
 
             <p> 
                 {% if post.lang !="jp" | post.content | number_of_words > 100 %} 
-                    {{ post.content | truncatewords:85 }} 
+                    {{ post.content | truncatewords:100 }} 
                 {% endif %}
                 
                 {% if post.lang =="jp" | post.content | number_of_words > 1 %} 

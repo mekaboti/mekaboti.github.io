@@ -2,7 +2,7 @@
 #page-title-img{
   background-image: url("/images/title-img4.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
 
   display: flex;
   flex-flow: column;

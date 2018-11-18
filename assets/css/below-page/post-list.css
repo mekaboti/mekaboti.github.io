@@ -19,6 +19,8 @@
 }
 .post-card a:hover {
     color: black;
+
+    text-decoration: underline;
 }
 .post-card a:active {
     color: black;
