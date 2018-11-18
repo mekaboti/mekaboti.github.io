@@ -8,9 +8,16 @@ layout: below-page
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <h3>
         <div class="post-card">
-            <a href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-            </a>
+            <div id="post-list-header">
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+                <p>
+                    ({{post.date}})
+                </p>
+            </div>
+             
+            
             <hr>
             
             <p> 

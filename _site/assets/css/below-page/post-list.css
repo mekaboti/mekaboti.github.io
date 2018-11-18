@@ -24,6 +24,13 @@
     color: black;
 }
 
+#post-list-header p{
+    text-align: right;
+    float: right;
+    padding-left: 1em;
+}
+
+
 .post-card hr{
     border: 2px black solid;
     background-color: black;
