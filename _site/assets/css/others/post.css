@@ -4,25 +4,31 @@
     justify-content: center;
 }
 
-#post-title h1{
-    font-family: Myfont;
-    font-size: 40px;
+.post h1{
+    font-family: titles;
+    font-size: 56px;
 
     text-align: center;
     margin:0;
+    padding-top: 60px;
 }
 
-.post hr{
-    height: 3px solid;
-    width: 300px;
-    size: 3px;
-}
-
-#post-content p{
-    font-family: post-sentences;
+.post h2{
+    font-family: titles;
     font-size: 24px;
 
-    margin:0;
-    text-align: center;
+    text-align: right;
 
+}
+
+
+.post p{
+    font-family: heveltica;
+    font-size: 24px;
+
+    text-align: justify;
+
+    margin-left: 120px;
+    margin-right: 120px
+    
 }

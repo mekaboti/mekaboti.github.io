@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="/assets/css/below-page/post.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/others/post.css" type="text/css">
+
 </head>
 
 <body>
     <div class="post">
-        <div id="post-title">
-            <h1> {{ title | escape }} </h1>
+        <h1> 
+            {{ page.title | escape }}
+        </h1>
+
+        <h2>
+            {{ page.date | date_to_long_string }}
+        </h2>
+        
+        <div class="separator"> 
+            <hr>
         </div>
-        <hr>
-        <div id="post-content">
-            <p>    
-                {{ content }} 
-            </p>
-        </div>
+        
+        <p>    
+            {{ content }} 
+        </p>
     </div>
 
 </body>
