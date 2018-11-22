@@ -1,0 +1,28 @@
+<nav>
+    <div class="post-card">
+        <div id="post-list-header">
+            <h3>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+            <a class="categry-tag" href="home-post-category-{{ post.category }}.html"> #{{ post.category }} </a>
+
+            <span>{{ post.date | date_to_long_string }}</span>
+        </div>
+
+        <hr> {% assign posts=site.posts | where:"language", page.language %}
+
+        <p>
+            <!-- Explanations of posts -->
+            {% if post.language != "jp" | post.content | number_of_words > 100 %} 
+                {{ post.content| truncatewords:100 }} 
+            {% endif %} 
+
+            <!---Posts in japanese -->
+            {% if post.language == "jp" | post.content | number_of_words > 1 %} 
+                {{ post.content | truncatewords:2 }} 
+            {% endif %}
+        </p>
+    </div>
+</nav>

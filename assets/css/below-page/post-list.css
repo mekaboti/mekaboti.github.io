@@ -2,14 +2,16 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.post-card a{
+.post-card a {
     font-family: titles;
     font-size: 34px;
     text-decoration: none;
-
-    margin-left: 240px;
 }
 .post-card a:link {
     color: black;
@@ -26,10 +28,18 @@
     color: black;
 }
 
-#post-list-header p{
-    text-align: right;
-    float: right;
-    padding-left: 1em;
+#post-list-header{
+    display: flex;  
+    justify-content: space-between;
+    align-items: baseline;
+    width: 85%;
+    margin: 0 auto ;
+    margin-top: 2em;
+}
+
+.post-card h3 {
+    display: inline;
+    margin: 0;
 }
 
 
@@ -37,16 +47,14 @@
     border: 2px black solid;
     background-color: black;
     
-    width: 80%;
+    width: 100%;
     margin:auto;
 }
 
 .post-card p{
     font-family: heveltica;
     font-size:18px;
-
-    margin-left:200px;
-    margin-right: 200px;
-    margin-top:0;
-    padding-top: 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.5em;
 }

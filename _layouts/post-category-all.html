@@ -1,0 +1,19 @@
+---
+layout: below-page
+---
+<link rel="stylesheet" href="/assets/css/below-page/post-list.css" type="text/css">
+
+<div class = "post-list">
+    <ul>
+        {%- for post in site.posts -%}
+            <li>
+                <!--Show all category's posts-->
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            
+                    {% include show-post-list.html %}
+                
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>

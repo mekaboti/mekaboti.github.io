@@ -1,0 +1,22 @@
+--- 
+layout: below-page 
+---
+<link rel="stylesheet" href="/assets/css/below-page/post-list.css" type="text/css">
+<div class="post-list"></div>
+    <ul>
+        {%- for post in site.posts -%}
+            <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                
+                <!--Show only language category's posts-->
+                {% if  post.category == "language" %}
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            
+                        {% include show-post-list.html %}
+
+                    {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+                {%- endif -%}
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>
