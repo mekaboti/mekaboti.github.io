@@ -1,0 +1,11 @@
+--- 
+layout: below-page 
+---
+<link rel="stylesheet" href="/assets/css/below-page/post-list.css" type="text/css">
+<div class="post-list"></div>
+    {% if page.category == "all" %}
+        {% include all-category-list.html %}
+    {% else %}
+        {% include selected-category-list.html %}
+    {%- endif -%}
+</div>

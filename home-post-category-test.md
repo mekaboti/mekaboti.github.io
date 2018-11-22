@@ -1,3 +1,4 @@
 ---
-layout: post-category-test
+layout: post-list
+category: test
 ---

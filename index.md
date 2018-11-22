@@ -1,3 +1,4 @@
 ---
-layout: post-category-all
+layout: post-list
+category: all
 ---

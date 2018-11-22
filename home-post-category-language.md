@@ -1,3 +1,4 @@
 ---
-layout: post-category-language
+layout: post-list
+category: language
 ---
