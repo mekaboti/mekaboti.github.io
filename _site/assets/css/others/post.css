@@ -6,25 +6,25 @@
 
 .post h1{
     font-family: titles;
-    font-size: 56px;
+    font-size: 7vh;
 
     text-align: center;
     margin:0;
-    padding-top: 60px;
+    padding-top: 5%;
 }
 
 .post h2{
     font-family: titles;
-    font-size: 24px;
+    font-size: 3.7vh;
 
-    text-align: right;
+    text-align: center;
 
 }
 
 
 .post p{
     font-family: heveltica;
-    font-size: 24px;
+    font-size: 3.1vh;
 
     text-align: justify;
 

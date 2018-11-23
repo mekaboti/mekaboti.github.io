@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* Recent */
+.title h1{
+    font-family: titles;
+    font-size: 6.5vh;
+    margin-left: 4%;
+    margin-bottom: 0;
+}
+
+
+

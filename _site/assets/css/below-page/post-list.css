@@ -8,9 +8,10 @@
     margin: 0 auto;
 }
 
+/* Post title as URL*/
 .post-card a {
     font-family: titles;
-    font-size: 34px;
+    font-size: 5.4vh;
     text-decoration: none;
 }
 .post-card a:link {
@@ -34,14 +35,19 @@
     align-items: baseline;
     width: 85%;
     margin: 0 auto ;
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 
+/* Post title */
 .post-card h3 {
     display: inline;
     margin: 0;
 }
-
+/* Publised date */
+.post-card span{
+    font-family: helvetica;
+    font-size: 2.5vh;
+}
 
 .post-card hr{
     border: 2px black solid;
@@ -51,9 +57,10 @@
     margin:auto;
 }
 
+/* Post content */
 .post-card p{
     font-family: heveltica;
-    font-size:18px;
+    font-size:2.8vh;
     width: 80%;
     margin: 0 auto;
     margin-top: 0.5em;

@@ -1,3 +1,33 @@
+.navigator{
+  display: flex;
+  flex-flow: row-reverse;
+  
+  width: 30%;
+  max-width: 200px;
+  margin: 0;
+  margin-left: 84%;
+}
+
+.navigator a {
+    font-family: titles;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.navigator a:link {
+    color: black;
+}
+.navigator a:visited {
+    color: black;
+}
+.navigator a:hover {
+    color: black;
+
+    text-decoration: underline;
+}
+.navigator a:active {
+    color: black;
+}
+
 .separator hr{
   height: 3px solid;
 }
