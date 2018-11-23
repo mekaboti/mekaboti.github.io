@@ -1,17 +1,17 @@
 .navigator{
   display: flex;
   flex-flow: row-reverse;
-  
-  width: 30%;
-  max-width: 200px;
-  margin: 0;
-  margin-left: 84%;
+  margin-right: 8%; 
+
 }
 
 .navigator a {
     font-family: titles;
     font-size: 1.5em;
     text-decoration: none;
+
+
+  justify-content: space-between;
 }
 .navigator a:link {
     color: black;
