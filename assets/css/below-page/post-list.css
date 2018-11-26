@@ -46,6 +46,7 @@
 /* Publised date */
 .post-card span{
     font-family: helvetica;
+    font-weight: bold;
     font-size: 2.5vh;
 }
 
