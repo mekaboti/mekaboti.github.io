@@ -1,33 +1,33 @@
-/*top image*/
-#page-title-img{
-  background-image: url("/images/compressed-title-image14.jpg");
-  background-position: top;
-  
-  background-size: cover;
-  height: 57vh;
-
+/*top title*/
+#page-title{
+  height: 49vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
+
+  background-color:#ccd9ff;
 }
 
+
 /*Mekaboti's Website*/
-#page-title-img h1{
+#page-title h1{
   color: black;
   /* font-size: 90px; */
   font-size: 12vh;
   font-family: Myfont;
-  
+
   text-align: center;
-  margin: 0 auto ;
+  margin: 12.2vh auto; 
+  margin-bottom: 0;
 }
 
 /*sub sentence*/
-#page-title-img p {
+#page-title p {
   color: black;
-  font-size: 5.7vh;
+  font-size: 4.7vh;
   font-family: Myfont;
 
+  height:100%;
   text-align: center;
   margin: 0 auto ;
   margin-top: 1em;

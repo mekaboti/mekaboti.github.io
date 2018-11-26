@@ -1,8 +1,9 @@
 .navigator{
   display: flex;
   flex-flow: row-reverse;
-  margin-right: 8%; 
+  margin-right: 8%;
 
+  height: 4vh;
 }
 
 .navigator a {
