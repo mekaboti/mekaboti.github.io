@@ -26,6 +26,7 @@
   margin-bottom: 0;
 }
 
+/* twitter link */
 #page-title a {
     font-family: Myfont;
     font-size: 5.4vh;
@@ -48,18 +49,6 @@
     color: black;
 }
 
-/*sub sentence*/
-/*
-#page-title p {
-  color: black;
-  font-size: 4.7vh;
-  font-family: Myfont;
-
-  height:100%;
-  text-align: center;
-  margin: 0 auto ;
-  margin-top: 1em;
-} */
 
 footer {
   background-color: #0000;
