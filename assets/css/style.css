@@ -24,8 +24,8 @@ a{
 }
 
 .wrap {
-  overflow: hidden;
-}
+  /* overflow: hidden;*/
+} 
 
 ul{
   list-style-type: none; 
