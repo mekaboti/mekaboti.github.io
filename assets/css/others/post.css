@@ -24,18 +24,17 @@
     font-size: 3.7vh;
 
     text-align: center;
-
 }
 
 
-.post p{
+.post main{
     font-family: heveltica;
     font-size: 18px;
     line-height: 2;
 
     text-align: justify;
-
-    margin-left: 15vw;
-    margin-right: 15vw;
     
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
 }

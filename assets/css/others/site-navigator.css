@@ -6,12 +6,14 @@
   height: 4vh;
 }
 
-.navigator a {
+.navigator{
     font-family: titles;
     font-size: 30px;
-    text-decoration: none;
 }
 
+.navigator a{
+    text-decoration: none;
+}
 .navigator a:hover {
     text-decoration: underline;
 }
@@ -21,6 +23,10 @@
     .navigator a{
         font-size: 7vw;
     }
+}
+
+.navigator span{
+    font-weight: bold;
 }
 
 .separator hr{
