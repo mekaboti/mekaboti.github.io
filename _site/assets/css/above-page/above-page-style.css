@@ -14,7 +14,7 @@
 /*Mekaboti's Website*/
 #page-title h1{
   color: black;
-  font-size: 12vh;
+  font-size: 77px;
   font-family: Myfont;
 
   border-bottom: solid;
@@ -25,11 +25,17 @@
   margin: 0 auto;
   margin-bottom: 0;
 }
+@media(max-width: 650px)
+{
+    #page-title h1{
+        font-size: 12vw;
+    }
+}
 
 /* twitter link */
 #page-title a {
     font-family: Myfont;
-    font-size: 5.4vh;
+    font-size: 40px;
     text-decoration: none;
     text-align: center;
     margin-top:0.5em;
@@ -48,7 +54,12 @@
 #page-title a:active {
     color: black;
 }
-
+@media(max-width: 650px)
+{
+    #page-title a{
+        font-size: 6vw;
+    }
+}
 
 footer {
   background-color: #0000;

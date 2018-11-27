@@ -8,7 +8,7 @@
 
 .navigator a {
     font-family: titles;
-    font-size: 4.1vh;
+    font-size: 30px;
     text-decoration: none;
 }
 .navigator a:link {
@@ -24,6 +24,12 @@
 }
 .navigator a:active {
     color: black;
+}
+@media(max-width:460px)
+{
+    .navigator a{
+        font-size: 7vw;
+    }
 }
 
 .separator hr{

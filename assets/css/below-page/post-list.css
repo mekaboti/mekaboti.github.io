@@ -8,6 +8,7 @@
     margin: 0 auto;
 }
 
+
 /* Post title as URL*/
 .post-card a {
     font-family: titles;
@@ -37,6 +38,12 @@
     margin: 0 auto ;
     margin-top: 2.5em;
 }
+@media(max-width: 700px)
+{
+    #post-list-header {
+        flex-flow: column;
+    }
+}
 
 /* Post title */
 .post-card h3 {
@@ -57,6 +64,7 @@
     width: 100%;
     margin:auto;
 }
+
 
 /* Post content */
 .post-card p{
