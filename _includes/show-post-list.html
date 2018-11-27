@@ -16,7 +16,12 @@
         <p>
             <!-- Explanations of posts -->
             {% if post.language != "jp" | post.content | number_of_words > 100 %} 
-                {{ post.content| truncatewords:100 }} 
+                {% if post.explanation-lenght > 100 %} 
+                    {{ post.content| truncatewords: 100 }} 
+                {% else %}
+                     {{ post.content| truncatewords: post.explanation-lenght }} 
+                {% endif %}
+                
             {% endif %} 
 
             <!---Posts in japanese -->

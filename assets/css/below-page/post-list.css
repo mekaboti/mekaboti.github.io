@@ -43,7 +43,7 @@
 .post-card span{
     font-family: helvetica;
     font-weight: bold;
-    font-size: 2.5vh;
+    font-size: 20px;
 }
 
 .post-card hr{
@@ -58,13 +58,13 @@
 /* Post content */
 .post-card p{
     font-family: heveltica;
-    font-size:2.8vh;
+    font-size: 18px;
     width: 80%;
     margin: 0 auto;
     margin-top: 0.5em;
 
     overflow: hidden;
-    max-height: 15em;
+    max-height: 14.2em;
     position: relative;
 }
 .post-list p::after{
