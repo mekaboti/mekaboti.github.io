@@ -11,20 +11,11 @@
     font-size: 30px;
     text-decoration: none;
 }
-.navigator a:link {
-    color: black;
-}
-.navigator a:visited {
-    color: black;
-}
-.navigator a:hover {
-    color: black;
 
+.navigator a:hover {
     text-decoration: underline;
 }
-.navigator a:active {
-    color: black;
-}
+
 @media(max-width:460px)
 {
     .navigator a{

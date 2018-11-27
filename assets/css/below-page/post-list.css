@@ -15,19 +15,8 @@
     font-size: 5.4vh;
     text-decoration: none;
 }
-.post-card a:link {
-    color: black;
-}
-.post-card a:visited {
-    color: black;
-}
 .post-card a:hover {
-    color: black;
-
     text-decoration: underline;
-}
-.post-card a:active {
-    color: black;
 }
 
 #post-list-header{
