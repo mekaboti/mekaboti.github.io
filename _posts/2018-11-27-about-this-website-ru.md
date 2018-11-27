@@ -1,5 +1,6 @@
 ---
-layout: Об этом сайте
+layout: post
+title: Об этом сайте
 date: 2018-11-27
 explanation-lenght: 33
 category: others
