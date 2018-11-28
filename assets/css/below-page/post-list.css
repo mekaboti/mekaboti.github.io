@@ -19,7 +19,7 @@
     text-decoration: underline;
 }
 
-#post-list-header{
+.post-list-header{
     display: flex;  
     justify-content: space-between;
     align-items: baseline;
@@ -29,7 +29,7 @@
 }
 @media(max-width: 700px)
 {
-    #post-list-header {
+    .post-list-header {
         flex-flow: column;
     }
 }
