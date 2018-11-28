@@ -15,18 +15,18 @@
 
         <p>
             <!-- Explanations of posts -->
-            {% if post.language != "jp" | post.content | number_of_words > 100 %} 
+            {% if post.language != "jp" | post.excerpt | number_of_words > 100 %} 
                 {% if post.explanation-lenght > 100 %} 
-                    {{ post.content| truncatewords: 100 }} 
+                    {{ post.excerpt| truncatewords: 100 }} 
                 {% else %}
-                     {{ post.content| truncatewords: post.explanation-lenght }} 
+                     {{ post.excerpt| truncatewords: post.explanation-lenght }} 
                 {% endif %}
                 
             {% endif %} 
 
             <!---Posts in japanese -->
-            {% if post.language == "jp" | post.content | number_of_words > 1 %} 
-                {{ post.content | truncatewords: 2 }} 
+            {% if post.language == "jp" | post.excerpt | number_of_words > 1 %} 
+                {{ post.excerpt | truncatewords: 2 }} 
             {% endif %}
         </p>
     </div>
